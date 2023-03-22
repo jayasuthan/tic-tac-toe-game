@@ -1,0 +1,60 @@
+.app{
+  background-color: black;
+  color: azure;
+  height: 100vh;
+
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 900 ;
+  height: 7vh;   
+  background-color: skyblue;
+  border-bottom: 1px solid white;
+  color: white;
+}
+ 
+.alignCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board{
+  height: 92vh;
+  font-size: 2rem;
+  font-weight: 900 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.row{
+  display: flex;
+  height : 20vh;
+}
+
+.cell {
+  width: 25vw;
+  border: 1px solid white;
+  color: black;
+  font-size: 5rem;
+}
+
+.skyblue{
+  background-color: skyblue;
+  
+}
+.orange{
+  background-color: orange;
+  
+}
+.button{
+    height: 5vh;
+    width:  25vw;
+    background-color: lightgoldenrodyellow;
+    height: 8vh;
+    width: 20vw;
+    font-size: 1rem;
+    font-weight:bolder;
+}
